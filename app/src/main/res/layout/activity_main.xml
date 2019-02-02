@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/background1" android:clickable="false">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Text"
+                android:id="@+id/textViewW"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textColor="#c7c7c7"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginTop="206dp" android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/press_me"
+                android:id="@+id/button1"
+                android:onClick="launch" android:layout_below="@+id/textViewW" android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/press_me2"
+                android:id="@+id/button2"
+                android:onClick="HighScores"
+                android:layout_below="@+id/button1" android:layout_alignEnd="@+id/button1"/>
+
+</RelativeLayout>

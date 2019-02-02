@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tower Defense</string>
+    <string name="Text">WELCOME TO TOWER DEFENSE!</string>
+    <string name="Text2">HEALTH</string>
+    <string name="Text3">HIGH SCORES</string>
+    <color name="black">#000000</color>
+    <string name="press_me">CLICK TO PLAY</string>
+    <string name="press_me2">HIGH SCORES</string>
+</resources>
